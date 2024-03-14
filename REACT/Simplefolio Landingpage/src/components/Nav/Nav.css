@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1c1c1c;
+    padding: 20px;
+    font-family: poppins;
+    background-color: #2a2f4c;
+    color: white;
+    width: 100vw;
+}
+
+nav p {
+    margin-left: 30px;
+    font-weight: bold;
+    color: #bdbddd;
+    font-size: 20px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav div a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000000;
+    color: #bdbddd;
+   
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: worksans;
+    src: url(/assets/Fonts/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: lucida;
+    src: url(/assets/Fonts/LucidaGrande.ttf);
+} 
+:root {
+    --color1: #EBCCC2;
+    --color2: rgb(115, 115, 115);
+    --color3: white;
+    --color4: #2e2e2e;
+}
+.h1, h2, h3, h4, h5, h6 {
+    color: var(--color1);
+    font-family: worksans;
+}
+.p {
+    color: var(--color2);
+    font-family: worksans;
+}
+.a {
+    color: var(--color2);
+}
+
+/* ----- NAVIGATION ------ */
+header {
+    background-color: var(--color4);
+    position: sticky;
+}
+header nav {
+    font-family: worksans;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav  {
+    text-decoration: none;
+    padding-right: 20px;
+}
+header nav img {
+    padding-left: 20px;
+}
+
+/* ------ TEXT & BACKGROUND BILD ------ */
+
+.about div {
+    padding: 10vh 0;
+    margin-left: 30vw;
+}
+.about h3 {
+    font-family: worksans;
+    font-weight: 400;
+}
+.about img {
+    width: 90vw;
+    height: 250vh;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    padding-bottom: 100px;
+}
+/* ------ PAGE 1 FOOTER  ------ */
+
+.page1footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 232px;
+    font-family: worksans;
+}
+.page1footer img {
+    width: 30vw;
+}
+.page1footer h3 {
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.page1footer p {
+    padding-left: 20px;
+}

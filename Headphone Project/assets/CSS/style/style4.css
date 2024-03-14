@@ -1,0 +1,52 @@
+header {
+    position: sticky;
+    top: 0;
+}
+
+header nav {
+    font-family: worksans;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+header nav a {
+    color: var(--color2);
+    text-decoration: none;
+    padding-right: 20px;
+
+}
+header nav img {
+    padding-left: 20px;
+}
+
+.sounds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100vh;
+}
+.sounds h2 {
+    padding: 30px;
+    width: 250px;
+    font-family: worksans;
+    font-weight: 400;
+}
+.sounds p{
+    padding: 0px 30px 0 30px;
+    color: var(--color2);
+    font-family: worksans;
+    padding-left: 30px;
+}
+.sounds p:nth-of-type(3) {
+    padding-top: 10px;
+}
+
+
+.sounds img {
+    width: 60%;
+    height: 80vh;
+}

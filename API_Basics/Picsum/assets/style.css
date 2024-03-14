@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.überschrift {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.gridGallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gridGallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.gridGallery h2 {
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+  font-size: 20px;
+}
+.gridGallery a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  justify-content: center;
+}
+
+.gridGallery button {
+  padding: 8px 15px;
+  border-radius: 10px;
+  background-color: rgb(221, 15, 160);
+  border: none;
+}
+
+.gridGallery button:hover {
+  background-color: rgb(255, 79, 252);
+}

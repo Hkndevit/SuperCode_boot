@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.outsideArea {
+    background-color: aliceblue;
+    padding: 20px 40px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.insideArea {
+    background-color: black;
+    padding: 30px 80px;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+
+}
+
+.day, .hours, .hours, .minutes, .point1, .point2, .seconds, .period {
+    color: wheat;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.period {
+    padding-left: 40px;
+}
+

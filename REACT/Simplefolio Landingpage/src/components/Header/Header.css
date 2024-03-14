@@ -1,0 +1,35 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #2a2f4c;
+    font-family: poppins;
+}
+
+section h1 {
+    color: #bdbddd;
+    padding: 20px;
+    font-size: 30px;
+}
+span {
+    color: #90a0d9;
+}
+
+section h3 {
+    color: #bdbddd;
+    padding-bottom: 20px;
+}
+
+section p {
+    color: #bdbddd;;
+}
+
+.button {
+    text-decoration: none;
+    color: #bdbddd;;
+    padding: 10px 40px;
+    border: 1px solid #bdbddd;
+    margin: 20px;
+}

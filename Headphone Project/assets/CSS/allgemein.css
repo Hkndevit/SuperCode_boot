@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2e2e2e;
+}
+@font-face {
+    font-family: worksans;
+    src: url(/assets/Fonts/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: lucida;
+    src: url(/assets/Fonts/LucidaGrande.ttf);
+} 
+:root {
+    --color1: #EBCCC2;
+    --color2: #737373;
+    --color3: white;
+    --color4: #2e2e2e;
+}
+.h1, h2, h3, h4, h5, h6 {
+    color: var(--color1);
+}
+.p {
+    color: var(--color2);
+}
+
+/* ----- NAVIGATION ------ */
+header {
+    background-color: var(--color4);
+    position: relative;
+}
+header nav {
+    font-family: worksans;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav a {
+    color: var(--color2);
+    text-decoration: none;
+    padding-right: 20px;
+}
+header nav img {
+    padding-left: 20px;
+}
+
+/* ------ LEFTNAV ------ */
+
+
+aside {
+    text-transform: uppercase;
+  
+    font-family: LucidaGrande, Arial, Helvetica, sans-serif;
+  
+    display: flex;
+    flex-direction: column;
+  
+    position: fixed;
+    top: 100px;
+    left: 20px;
+  
+    padding: 3vh;
+  }
+  
+  aside {
+    background: transparent;
+  }
+  aside div {
+    border-left: 1px solid #867772;
+    height: 1vh;
+    margin: 10px 0;
+    background: transparent;
+  }
+  
+  aside a {
+    margin: 10px 0;
+    text-decoration: none;
+    color: var(--color2);
+    background: transparent;
+
+  }
+  
+  aside a:hover {
+    color: white;
+  }
+  
+  /*? Kreise einfügen bei Side Nav - Variante mit before */
+  aside a::before {
+    content: url(/assets/Fotos/beidekreise.svg) ;
+    margin-right: 30px;
+    margin-left: -14px;
+  
+    vertical-align: middle;
+  }
+  
+  .current::before {
+    /* content: url(/assets/Fotos/Ellipse\ 1.svg); */
+    margin-right: 20px;
+    margin-left: -15.5px;
+  }
+  
+  .current {
+    color: white;
+  }
+  

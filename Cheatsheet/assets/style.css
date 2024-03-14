@@ -1,0 +1,109 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inconsolata;
+}
+
+@font-face {
+  font-family: inconsolata;
+  src: url(./fonts/Inconsolata-VariableFont_wdth\wght.ttf);
+}
+
+/* ! GITHUB CHEATSHEETS */
+header img {
+  width: 100vw;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background: linear-gradient(
+    135deg,
+    rgb(44, 83, 100) 0%,
+    rgb(32, 58, 67) 50%,
+    rgb(15, 32, 39) 100%
+  );
+}
+section h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  font-size: clamp(3rem, 1.5vw, 1rem);
+  color: bisque;
+  text-shadow: 0, 8px 0 10px;
+  letter-spacing: 20px;
+}
+
+.grid span {
+  color: #ffd897;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1vw;
+  margin: 0 10px 0px 10px;
+}
+
+.grid div {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.grid div:hover {
+  background-color: #38465e;
+
+  box-shadow: 0 0 5px #ffee10;
+}
+.grid div h2 {
+  padding-bottom: 30px;
+  color: #ffd897;
+}
+.grid div p {
+  line-height: 30px;
+  padding: 10px;
+}
+.grid div:nth-of-type(1) {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(165deg, rgb(21, 26, 35) 85%, #ffd897 85%);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+.grid div:nth-of-type(2) {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    165deg,
+    rgb(21, 26, 35) 85%,
+    rgb(255, 216, 151) 85%
+  );
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+.grid div:nth-of-type(3) {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    165deg,
+    rgb(21, 26, 35) 85%,
+    rgb(255, 216, 151) 85%
+  );
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheatsheet</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="/assets/Bilder/gitpic.jpg" alt="" />
+    </header>
+    <section>
+      <h1>GITHUB CHEATSHEETS</h1>
+      <article class="grid">
+        <div>
+          <h2>Branches anlegen und wechseln</h2>
+          <p>
+            <span>git branch -></span> Zeigt alle vorhanden branches an. (* ist
+            wo man sich gerade befindet)
+          </p>
+          <p>
+            <span>git branch BurgerMenu -></span> legt einen neune branch an.
+          </p>
+          <p>
+            <span>git checkout BurgerMenu -></span> wechselt zu einen neuen
+            branch
+          </p>
+          <p>
+            <span>git checkout -b BurgerMenu2 -></span> legft einen neune branch
+            BurgerMenu2 an und wechselt dahin
+          </p>
+          <p>
+            <span>git branch -d BurgerMenu2 -></span> Löscht den branch
+            BurgerMenu2
+          </p>
+        </div>
+        <div>
+          <h2>Ablauf eines Merges (Zusammenführung zweier branches.)</h2>
+          <p>
+            <span>git checkout main -></span> Wechselt zum main branch (Davor
+            muss man sich auf den main branch befinden)
+          </p>
+          <p>
+            <span>git merge BurgerMenu -> </span>Versucht den main Branch mit
+            den BurgerMenu Branch zusammenzuführen
+          </p>
+          <p>
+            <span>a.</span> git add . <br /><span>b.</span> git commit -m "merge
+            branch" <br /><span>c.</span> git push
+          </p>
+          <p><span>git branch -d BurgerMenu -></span> Löscht den branch</p>
+        </div>
+        <div>
+          <h2>Commits zurück gehen</h2>
+          <p>
+            <span>git log --oneline -></span> id raussuchen wo man zurück will
+          </p>
+          <p>
+            <span>git checkout 3290492 . -></span> man geht auf den alten stand
+            zurück
+          </p>
+          <p>git add .</p>
+          <p>git commit -m "back"</p>
+          <p>git push</p>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>

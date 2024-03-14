@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+}
+
+.card {
+    text-align: end;
+    padding: 10px 10px;
+    background-color: orange;
+    width: 50px;
+    margin: 10px;
+}

@@ -1,0 +1,19 @@
+.border {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vw;
+}
+
+.inputs {
+    margin-top: 100px;
+}
+
+.inputs input {
+    padding: 5px;
+}
+
+.outputs p  {
+    font-weight: bold;
+}

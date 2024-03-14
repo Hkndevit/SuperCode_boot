@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+.box {
+    margin: 200px 100px 0px 100px;
+    display: flex;
+}
+#text {
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#outputMe {
+    margin: 20px 100px;
+    width: 465px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+}
+button {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+}

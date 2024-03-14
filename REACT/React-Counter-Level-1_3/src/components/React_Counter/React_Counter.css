@@ -1,0 +1,32 @@
+.counter {
+    display: flex;
+    border: 1px solid black;
+    margin: 50px 200px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+h3 {
+    padding: 30px;
+    border: 1px solid black;
+    margin: 0 5px;
+    font-size: 26px;
+}
+
+.reset-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+button {
+    font-weight: bold;
+}

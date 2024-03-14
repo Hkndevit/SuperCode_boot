@@ -1,0 +1,24 @@
+.skills {
+    margin-bottom: 50px;
+}
+
+.gridSkills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.gridSkills div {
+    background-color:#30385e;
+    border-radius: 5px;
+    color: #cdcdff;
+    padding: 10px;
+}
+
+.skillsH5 {
+    font-family: poppins;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #BDBDDD;
+}

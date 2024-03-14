@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin:20px 100px;
+}
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0D4625;
+    padding: 20px;
+}
+header a:hover {
+    color: #009b40;
+}
+header h2 {
+color: #0D4625;
+font-weight: bold;
+}

@@ -1,0 +1,35 @@
+.main-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px;
+    margin: 0px 400px;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.new-box {
+    display: none;
+}
+.answer {
+    padding: 10px;
+    background-color: gray;
+    border-top: 1px white solid;
+    margin: 0px 400px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-box button {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.main-box button:hover {
+    background-color: rgb(205, 205, 205);
+    color: white;
+}

@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact span {
+    color: red;
+}
+
+.contact {
+   display: flex;
+   justify-content: center;
+  margin-top: 50px;
+}
+
+.name {
+    padding: 2px 10px;
+    margin-bottom: 10px;
+}
+.nachname {
+    padding: 2px 10px;
+}
+.email {
+    padding: 2px 217px 2px 0px;
+    margin-bottom: 10px;
+}
+.contact select {
+    padding: 2px 310px 2px 0px;
+    margin-bottom: 10px;
+}
+.nachricht {
+    padding: 2px 150px 80px 0px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 4px 174px;
+    background-color: rgb(0, 112, 168);
+    display: flex;
+}
+
+button p {
+    color: white;
+    text-align: center;
+   
+}

@@ -1,0 +1,28 @@
+.dayNight div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dayNight h1 {
+    font-size: 50px;
+}
+
+.dayNight button {
+    padding: 15px 30px;
+    background-color:transparent;
+    border-radius: 20px;
+}
+
+.dayNight button:hover {
+    border-color: blue;
+    cursor: pointer;
+}
+
+.night {
+    padding: 10% 60%;
+    background-color: black;
+    color: White;
+    
+}

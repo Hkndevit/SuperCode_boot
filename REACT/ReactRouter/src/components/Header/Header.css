@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid grey;
+    padding: 10px 30px ;
+    border-radius: 20px;
+    margin: 0 5px;
+    background-color: rgb(11, 149, 164);
+}
+header a:hover {
+    background-color: rgb(19, 200, 220);
+}
